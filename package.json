@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "rollup": "^3.10.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-css-only": "^4.3.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.0"
+  },
+  "name": "click-to-copy",
+  "version": "1.0.0",
+  "description": "A JavaScript library that allows you to easily copy the content of an HTML tag when clicked on that tag. It also shows a tooltip that says \"click to copy\" and can be easily triggered by adding a class name to the tag.",
+  "main": "dist/index.js",
+  "style": "dist/style.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "copy",
+    "click-to-copy",
+    "clipboard"
+  ],
+  "author": "Devnart",
+  "license": "MIT"
+}

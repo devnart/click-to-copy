@@ -1,0 +1,14 @@
+# Build artifacts
+dist/
+build/
+
+# Log files
+*.log
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Package manager files
+node_modules/
+package-lock.json

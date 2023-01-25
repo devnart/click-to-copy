@@ -1,0 +1,43 @@
+.copy-content::before {
+  content: "Click to copy";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.copy-content:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+#copy-notification {
+  font-family: sans-serif;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+  transition: all 0.2s ease-in-out;
+  transform: translateY(100%);
+}
+
+#copy-notification.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.2s ease-in-out;
+}
